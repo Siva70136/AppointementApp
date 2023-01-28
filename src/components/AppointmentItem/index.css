@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 200px;
+  border: 1px solid lightgrey;
+  padding: 4px;
+  border-radius: 8px;
+  margin: 3px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star {
+  width: 25px;
+  height: 25px;
+}
+.name {
+  font-weight: 500;
+}
+.date {
+  font-size: 13px;
+}
+.fill-button {
+  background-color: transparent;
+  border: none;
+}
